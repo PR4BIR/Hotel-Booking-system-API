@@ -55,14 +55,16 @@ cd ../frontend
 # Install dependencies
 npm install
 
+
 # Run the frontend
 npm run dev
+
 🖼 Screenshots
-
-
 1️⃣ Homepage
-
+<img width="1920" height="1080" alt="Screenshot (241)" src="https://github.com/user-attachments/assets/8c815436-600e-4dc3-a3ae-a4f579a4ab83" />
 2️⃣ Room Booking Page
+<img width="1920" height="1080" alt="Screenshot (242)" src="https://github.com/user-attachments/assets/94314430-8ea5-4158-a657-0d66b1277e2c" />
+
 
 <img width="902" height="404" alt="image" src="https://github.com/user-attachments/assets/f7fa8c07-e20f-459b-9c31-757ba5cede42" />
 
