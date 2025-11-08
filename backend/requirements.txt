@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+SQLAlchemy
+mysql-connector-python
+pydantic-settings
+python-dotenv
+python-docx
+docx2pdf
+email-validator
+bcrypt==4.0.1 
+passlib[bcrypt]
+python-jose
+reportlab
+python-multipart

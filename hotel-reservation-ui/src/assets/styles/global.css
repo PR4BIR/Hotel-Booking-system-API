@@ -1,0 +1,252 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 bg-primary-600 text-white rounded-md hover:bg-primary-700 transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply px-4 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300 transition-colors;
+  }
+  
+  .card {
+    @apply bg-white shadow-md rounded-lg p-6;
+  }
+  
+  .input {
+    @apply w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500;
+  }
+  
+  .label {
+    @apply block text-sm font-medium text-gray-700 mb-1;
+  }
+
+  /* Toast notification styles */
+  .welcome-toast,
+  .goodbye-toast,
+  .register-toast {
+    @apply py-1;
+  }
+  
+  /* Welcome popup styles */
+  .welcome-popup-card {
+    @apply rounded-xl shadow-2xl overflow-hidden;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .welcome-avatar {
+    @apply w-20 h-20 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center shadow-md relative;
+    background-size: 400% 400%;
+    animation: gradient-animation 3s ease infinite;
+    margin-top: -40px;
+    border: 4px solid white;
+  }
+  
+  .welcome-avatar-inner {
+    @apply text-white text-3xl font-bold;
+  }
+  
+  /* Contact page styles */
+  .contact-icon-container {
+    @apply bg-blue-50 p-2 rounded-full mr-3 group-hover:bg-blue-100 transition-colors;
+  }
+  
+  .contact-icon {
+    @apply w-5 h-5 text-blue-600;
+  }
+  
+  .contact-info-row {
+    @apply flex items-start group;
+  }
+  
+  .contact-info-text {
+    @apply font-medium text-gray-800;
+  }
+  
+  .contact-info-value {
+    @apply text-gray-600;
+  }
+  
+  .contact-link {
+    @apply text-gray-600 hover:text-blue-600 transition-colors;
+  }
+  
+  .social-icon {
+    @apply text-gray-400 transition-colors transform hover:scale-110 duration-200 relative;
+  }
+  
+  .social-icon-facebook {
+    @apply hover:text-blue-600;
+  }
+  
+  .social-icon-instagram {
+    @apply hover:text-pink-600;
+  }
+  
+  .social-icon-twitter {
+    @apply hover:text-blue-400;
+  }
+  
+  .social-tooltip {
+    @apply absolute -top-8 left-1/2 -translate-x-1/2 whitespace-nowrap bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200;
+  }
+  
+  .social-tooltip-arrow {
+    @apply absolute h-2 w-2 bg-gray-800 transform rotate-45 left-1/2 -translate-x-1/2 -bottom-1;
+  }
+  
+  .submit-button {
+    @apply w-full py-3 px-4 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-md transition-colors disabled:bg-blue-400 relative overflow-hidden group;
+  }
+  
+  .submit-button-overlay {
+    @apply absolute top-0 left-0 w-0 h-full bg-blue-800 transition-all duration-300 group-hover:w-full -z-0;
+  }
+  
+  .submit-button-content {
+    @apply relative z-10;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Success message styles */
+  .success-message {
+    @apply bg-green-50 border-l-4 border-green-500 p-6 rounded-lg shadow-sm;
+  }
+  
+  .success-icon {
+    @apply w-8 h-8 text-green-500 mr-3;
+  }
+  
+  .success-title {
+    @apply text-xl font-bold text-green-800;
+  }
+  
+  .success-text {
+    @apply text-green-700 mb-4;
+  }
+  
+  .success-button {
+    @apply px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors;
+  }
+  
+  /* Form element styles */
+  .form-container {
+    @apply space-y-6;
+  }
+  
+  .form-input {
+    @apply w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+  
+  .form-select {
+    @apply w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+  
+  .form-textarea {
+    @apply w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+}
+
+/* Toast container customizations */
+.Toastify__toast-container {
+  @apply mt-16;
+}
+
+.Toastify__toast {
+  @apply rounded-lg shadow-md;
+}
+
+.Toastify__toast-body {
+  @apply text-sm font-medium;
+}
+
+.Toastify__progress-bar--success {
+  @apply bg-green-500;
+}
+
+.Toastify__progress-bar--info {
+  @apply bg-blue-500;
+}
+
+.Toastify__progress-bar--error {
+  @apply bg-red-500;
+}
+
+.Toastify__toast--success {
+  @apply bg-green-50 border-l-4 border-green-500 text-green-800;
+}
+
+.Toastify__toast--info {
+  @apply bg-blue-50 border-l-4 border-blue-500 text-blue-800;
+}
+
+.Toastify__toast--error {
+  @apply bg-red-50 border-l-4 border-red-500 text-red-800;
+}
+
+.Toastify__close-button {
+  @apply text-gray-500 hover:text-gray-700;
+}
+
+/* Additional animation for the toast notifications */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.Toastify__toast--animate {
+  animation: slideInRight 0.3s ease-out;
+}
+
+/* Loading spinner animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Map styles */
+.map-container {
+  @apply h-64 bg-blue-600 relative;
+}
+
+.map-overlay {
+  @apply absolute inset-0 bg-cover bg-center opacity-70;
+}
+
+.map-marker {
+  @apply absolute inset-0 flex items-center justify-center;
+}
+
+.map-info {
+  @apply bg-white p-4 rounded-lg shadow-lg text-center;
+}
+
+.map-location {
+  @apply font-bold text-blue-700;
+}
+
+.map-address {
+  @apply text-gray-600 text-sm;
+}

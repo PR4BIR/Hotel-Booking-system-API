@@ -1,0 +1,13 @@
+// D:\hotel\hotel-reservation-ui\.vscode\settings.json
+{
+  "css.validate": false,
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "typescript": "javascript",
+    "css": "css"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}

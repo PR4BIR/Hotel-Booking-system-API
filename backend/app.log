@@ -1,0 +1,354 @@
+2025-06-18 10:04:35,180 - app.main - INFO - Request: POST /auth/register
+2025-06-18 10:04:35,180 - app.main - INFO - Response: POST /auth/register - Status: 404 - Time: 0.0000s
+2025-06-18 10:05:20,568 - app.main - INFO - Request: POST /users/
+2025-06-18 10:05:25,695 - app.main - INFO - Response: POST /users/ - Status: 201 - Time: 5.1271s
+2025-06-18 10:06:03,342 - app.main - INFO - Request: POST /users/verify-otp
+2025-06-18 10:06:03,361 - app.main - INFO - Response: POST /users/verify-otp - Status: 200 - Time: 0.0191s
+2025-06-18 10:09:00,936 - app.main - INFO - Request: POST /auth/login
+2025-06-18 10:09:01,412 - app.main - INFO - Response: POST /auth/login - Status: 200 - Time: 0.4751s
+2025-06-18 10:11:18,108 - app.main - INFO - Request: POST /rooms/
+2025-06-18 10:11:18,226 - app.main - INFO - Response: POST /rooms/ - Status: 201 - Time: 0.1184s
+2025-06-18 10:14:22,035 - app.main - INFO - Request: POST /auth/login
+2025-06-18 10:14:22,563 - app.main - INFO - Response: POST /auth/login - Status: 200 - Time: 0.5276s
+2025-06-18 10:14:50,550 - app.main - INFO - Request: POST /reservations/
+2025-06-18 10:14:50,621 - app.main - INFO - Response: POST /reservations/ - Status: 200 - Time: 0.0713s
+2025-06-18 10:20:03,668 - app.main - INFO - Request: POST /payments/
+2025-06-18 10:20:24,036 - app.main - INFO - Response: POST /payments/ - Status: 201 - Time: 20.3677s
+2025-06-18 10:23:23,182 - app.main - INFO - Request: POST /payments/
+2025-06-18 10:23:23,185 - app.main - INFO - Response: POST /payments/ - Status: 401 - Time: 0.0027s
+2025-06-18 10:23:31,239 - app.main - INFO - Request: POST /payments/
+2025-06-18 10:24:08,909 - app.main - INFO - Response: POST /payments/ - Status: 201 - Time: 37.6701s
+2025-06-18 10:31:54,385 - app.main - INFO - Request: GET /payments/
+2025-06-18 10:31:54,400 - app.main - INFO - Response: GET /payments/ - Status: 200 - Time: 0.0153s
+2025-06-18 20:08:00,303 - app.main - INFO - Request: POST /users/
+2025-06-18 20:08:03,700 - app.main - INFO - Response: POST /users/ - Status: 201 - Time: 3.3967s
+2025-06-18 20:08:23,962 - app.main - INFO - Request: POST /users/verify-otp
+2025-06-18 20:08:23,967 - app.main - INFO - Response: POST /users/verify-otp - Status: 400 - Time: 0.0042s
+2025-06-18 20:09:30,368 - app.main - INFO - Request: POST /users/verify-otp
+2025-06-18 20:09:30,374 - app.main - INFO - Response: POST /users/verify-otp - Status: 400 - Time: 0.0056s
+2025-06-18 20:09:50,284 - app.main - INFO - Request: POST /users/verify-otp
+2025-06-18 20:09:50,310 - app.main - INFO - Response: POST /users/verify-otp - Status: 200 - Time: 0.0254s
+2025-06-18 20:10:42,795 - app.main - INFO - Request: POST /auth/login
+2025-06-18 20:10:43,060 - app.main - INFO - Response: POST /auth/login - Status: 200 - Time: 0.2652s
+2025-06-22 13:40:23,022 - app.main - INFO - Request: OPTIONS /api/auth/register
+2025-06-22 13:40:23,022 - app.main - INFO - Response: OPTIONS /api/auth/register - Status: 200 - Time: 0.0000s
+2025-06-22 13:40:23,026 - app.main - INFO - Request: POST /api/auth/register
+2025-06-22 13:40:23,028 - app.main - INFO - Response: POST /api/auth/register - Status: 404 - Time: 0.0022s
+2025-06-22 13:40:26,681 - app.main - INFO - Request: POST /api/auth/register
+2025-06-22 13:40:26,681 - app.main - INFO - Response: POST /api/auth/register - Status: 404 - Time: 0.0000s
+2025-06-22 13:40:30,177 - app.main - INFO - Request: POST /api/auth/register
+2025-06-22 13:40:30,179 - app.main - INFO - Response: POST /api/auth/register - Status: 404 - Time: 0.0018s
+2025-06-22 13:41:10,596 - app.main - INFO - Request: POST /api/auth/register
+2025-06-22 13:41:10,596 - app.main - INFO - Response: POST /api/auth/register - Status: 404 - Time: 0.0000s
+2025-06-22 13:42:49,881 - app.main - INFO - Request: OPTIONS /api/auth/login
+2025-06-22 13:42:49,881 - app.main - INFO - Response: OPTIONS /api/auth/login - Status: 200 - Time: 0.0000s
+2025-06-22 13:42:49,885 - app.main - INFO - Request: POST /api/auth/login
+2025-06-22 13:42:49,885 - app.main - INFO - Response: POST /api/auth/login - Status: 404 - Time: 0.0000s
+2025-06-22 13:42:51,594 - app.main - INFO - Request: POST /api/auth/login
+2025-06-22 13:42:51,596 - app.main - INFO - Response: POST /api/auth/login - Status: 404 - Time: 0.0015s
+2025-06-26 23:15:19,952 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:15:19,954 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:15:19,955 - app.main - INFO - Response: GET /api/rooms/featured - Status: 404 - Time: 0.0036s
+2025-06-26 23:15:19,958 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:15:19,958 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0040s
+2025-06-26 23:15:19,960 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0033s
+2025-06-26 23:15:42,370 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:15:42,371 - app.main - INFO - Response: GET /api/rooms/featured - Status: 404 - Time: 0.0010s
+2025-06-26 23:15:42,497 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:15:42,497 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:15:42,500 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0021s
+2025-06-26 23:15:42,501 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0036s
+2025-06-26 23:36:38,026 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:36:38,038 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:36:38,038 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:36:38,054 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0281s
+2025-06-26 23:36:38,095 - app.main - INFO - Response: GET /api/rooms/featured - Status: 404 - Time: 0.0569s
+2025-06-26 23:36:38,096 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0579s
+2025-06-26 23:36:39,126 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:36:39,126 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:36:39,126 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:36:39,126 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0000s
+2025-06-26 23:36:39,130 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0043s
+2025-06-26 23:36:39,130 - app.main - INFO - Response: GET /api/rooms/featured - Status: 404 - Time: 0.0043s
+2025-06-26 23:36:41,968 - app.main - INFO - Request: GET /api/rooms
+2025-06-26 23:36:41,968 - app.main - INFO - Response: GET /api/rooms - Status: 404 - Time: 0.0000s
+2025-06-26 23:36:42,977 - app.main - INFO - Request: GET /api/rooms
+2025-06-26 23:36:42,981 - app.main - INFO - Response: GET /api/rooms - Status: 404 - Time: 0.0035s
+2025-06-26 23:36:45,017 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:36:45,018 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:36:45,019 - app.main - INFO - Response: GET /api/rooms/featured - Status: 404 - Time: 0.0016s
+2025-06-26 23:36:45,020 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:36:45,021 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0027s
+2025-06-26 23:36:45,024 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0036s
+2025-06-26 23:36:46,040 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:36:46,040 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:36:46,040 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0000s
+2025-06-26 23:36:46,043 - app.main - INFO - Response: GET /api/rooms/featured - Status: 404 - Time: 0.0028s
+2025-06-26 23:36:46,056 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:36:46,060 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0035s
+2025-06-26 23:37:26,287 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:37:26,287 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:37:26,287 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:37:26,303 - app.main - INFO - Response: GET /api/rooms/featured - Status: 404 - Time: 0.0161s
+2025-06-26 23:37:26,310 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0236s
+2025-06-26 23:37:26,327 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0396s
+2025-06-26 23:37:27,334 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:37:27,334 - app.main - INFO - Response: GET /api/rooms/featured - Status: 404 - Time: 0.0000s
+2025-06-26 23:37:27,357 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:37:27,360 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0020s
+2025-06-26 23:37:27,370 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:37:27,372 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0018s
+2025-06-26 23:37:54,057 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:37:54,061 - app.main - INFO - Response: GET /api/rooms/featured - Status: 404 - Time: 0.0040s
+2025-06-26 23:37:54,092 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:37:54,094 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:37:54,094 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0020s
+2025-06-26 23:37:54,106 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0118s
+2025-06-26 23:37:55,115 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:37:55,115 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:37:55,117 - app.main - INFO - Response: GET /api/rooms/featured - Status: 404 - Time: 0.0022s
+2025-06-26 23:37:55,117 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0022s
+2025-06-26 23:37:55,119 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:37:55,119 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0000s
+2025-06-26 23:42:27,496 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:42:27,500 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:42:27,501 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:42:27,502 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0020s
+2025-06-26 23:42:27,503 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0020s
+2025-06-26 23:42:27,507 - app.main - INFO - Response: GET /api/rooms/featured - Status: 401 - Time: 0.0104s
+2025-06-26 23:42:40,926 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:42:40,932 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:42:40,933 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:42:40,937 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0034s
+2025-06-26 23:42:40,938 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0044s
+2025-06-26 23:42:40,946 - app.main - INFO - Response: GET /api/rooms/featured - Status: 401 - Time: 0.0199s
+2025-06-26 23:43:33,099 - app.main - INFO - Request: OPTIONS /api/auth/login
+2025-06-26 23:43:33,099 - app.main - INFO - Response: OPTIONS /api/auth/login - Status: 200 - Time: 0.0000s
+2025-06-26 23:43:33,118 - app.main - INFO - Request: POST /api/auth/login
+2025-06-26 23:43:33,120 - app.main - INFO - Response: POST /api/auth/login - Status: 422 - Time: 0.0027s
+2025-06-26 23:43:52,626 - app.main - INFO - Request: POST /api/auth/login
+2025-06-26 23:43:52,627 - app.main - INFO - Response: POST /api/auth/login - Status: 422 - Time: 0.0013s
+2025-06-26 23:44:19,880 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:44:19,888 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:44:19,889 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:44:19,891 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0029s
+2025-06-26 23:44:19,892 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0021s
+2025-06-26 23:44:19,895 - app.main - INFO - Response: GET /api/rooms/featured - Status: 401 - Time: 0.0150s
+2025-06-26 23:45:11,101 - app.main - INFO - Request: GET /api/rooms
+2025-06-26 23:45:11,102 - app.main - INFO - Response: GET /api/rooms - Status: 404 - Time: 0.0010s
+2025-06-26 23:45:12,110 - app.main - INFO - Request: GET /api/rooms
+2025-06-26 23:45:12,110 - app.main - INFO - Response: GET /api/rooms - Status: 404 - Time: 0.0000s
+2025-06-26 23:45:16,319 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:45:16,319 - app.main - INFO - Response: GET /api/rooms/featured - Status: 404 - Time: 0.0005s
+2025-06-26 23:45:16,321 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:45:16,323 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:45:16,323 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0017s
+2025-06-26 23:45:16,324 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0014s
+2025-06-26 23:45:17,343 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:45:17,343 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:45:17,343 - app.main - INFO - Response: GET /api/rooms/featured - Status: 404 - Time: 0.0000s
+2025-06-26 23:45:17,350 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0075s
+2025-06-26 23:45:17,350 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:45:17,350 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0000s
+2025-06-26 23:45:18,354 - app.main - INFO - Request: GET /api/rooms
+2025-06-26 23:45:18,357 - app.main - INFO - Response: GET /api/rooms - Status: 404 - Time: 0.0010s
+2025-06-26 23:45:19,378 - app.main - INFO - Request: GET /api/rooms
+2025-06-26 23:45:19,378 - app.main - INFO - Response: GET /api/rooms - Status: 404 - Time: 0.0000s
+2025-06-26 23:45:40,271 - app.main - INFO - Request: GET /rooms
+2025-06-26 23:45:40,271 - app.main - INFO - Response: GET /rooms - Status: 307 - Time: 0.0000s
+2025-06-26 23:45:40,360 - app.main - INFO - Request: GET /rooms/
+2025-06-26 23:45:40,360 - app.main - INFO - Response: GET /rooms/ - Status: 401 - Time: 0.0000s
+2025-06-26 23:45:43,874 - app.main - INFO - Request: GET /rooms/featured
+2025-06-26 23:45:43,887 - app.main - INFO - Request: GET /testimonials
+2025-06-26 23:45:43,887 - app.main - INFO - Request: GET /promotions
+2025-06-26 23:45:43,887 - app.main - INFO - Response: GET /testimonials - Status: 404 - Time: 0.0000s
+2025-06-26 23:45:43,903 - app.main - INFO - Response: GET /promotions - Status: 404 - Time: 0.0160s
+2025-06-26 23:45:43,928 - app.main - INFO - Response: GET /rooms/featured - Status: 401 - Time: 0.0533s
+2025-06-26 23:45:45,626 - app.main - INFO - Request: GET /rooms
+2025-06-26 23:45:45,626 - app.main - INFO - Response: GET /rooms - Status: 307 - Time: 0.0000s
+2025-06-26 23:45:45,632 - app.main - INFO - Request: GET /rooms/
+2025-06-26 23:45:45,635 - app.main - INFO - Response: GET /rooms/ - Status: 401 - Time: 0.0029s
+2025-06-26 23:45:47,222 - app.main - INFO - Request: GET /rooms/featured
+2025-06-26 23:45:47,226 - app.main - INFO - Request: GET /promotions
+2025-06-26 23:45:47,227 - app.main - INFO - Request: GET /testimonials
+2025-06-26 23:45:47,228 - app.main - INFO - Response: GET /promotions - Status: 404 - Time: 0.0023s
+2025-06-26 23:45:47,229 - app.main - INFO - Response: GET /testimonials - Status: 404 - Time: 0.0020s
+2025-06-26 23:45:47,232 - app.main - INFO - Response: GET /rooms/featured - Status: 401 - Time: 0.0098s
+2025-06-26 23:45:49,583 - app.main - INFO - Request: GET /rooms/featured
+2025-06-26 23:45:49,587 - app.main - INFO - Request: GET /testimonials
+2025-06-26 23:45:49,587 - app.main - INFO - Request: GET /promotions
+2025-06-26 23:45:49,588 - app.main - INFO - Response: GET /testimonials - Status: 404 - Time: 0.0014s
+2025-06-26 23:45:49,590 - app.main - INFO - Response: GET /promotions - Status: 404 - Time: 0.0034s
+2025-06-26 23:45:49,593 - app.main - INFO - Response: GET /rooms/featured - Status: 401 - Time: 0.0092s
+2025-06-26 23:45:50,527 - app.main - INFO - Request: GET /rooms/featured
+2025-06-26 23:45:50,529 - app.main - INFO - Request: GET /promotions
+2025-06-26 23:45:50,529 - app.main - INFO - Request: GET /testimonials
+2025-06-26 23:45:50,530 - app.main - INFO - Response: GET /promotions - Status: 404 - Time: 0.0026s
+2025-06-26 23:45:50,530 - app.main - INFO - Response: GET /testimonials - Status: 404 - Time: 0.0019s
+2025-06-26 23:45:50,534 - app.main - INFO - Response: GET /rooms/featured - Status: 401 - Time: 0.0070s
+2025-06-26 23:45:51,067 - app.main - INFO - Request: GET /rooms/featured
+2025-06-26 23:45:51,067 - app.main - INFO - Request: GET /testimonials
+2025-06-26 23:45:51,069 - app.main - INFO - Request: GET /promotions
+2025-06-26 23:45:51,069 - app.main - INFO - Response: GET /testimonials - Status: 404 - Time: 0.0017s
+2025-06-26 23:45:51,069 - app.main - INFO - Response: GET /promotions - Status: 404 - Time: 0.0000s
+2025-06-26 23:45:51,069 - app.main - INFO - Response: GET /rooms/featured - Status: 401 - Time: 0.0017s
+2025-06-26 23:45:51,554 - app.main - INFO - Request: GET /rooms/featured
+2025-06-26 23:45:51,558 - app.main - INFO - Request: GET /testimonials
+2025-06-26 23:45:51,558 - app.main - INFO - Request: GET /promotions
+2025-06-26 23:45:51,559 - app.main - INFO - Response: GET /testimonials - Status: 404 - Time: 0.0010s
+2025-06-26 23:45:51,560 - app.main - INFO - Response: GET /promotions - Status: 404 - Time: 0.0020s
+2025-06-26 23:45:51,562 - app.main - INFO - Response: GET /rooms/featured - Status: 401 - Time: 0.0078s
+2025-06-26 23:45:52,021 - app.main - INFO - Request: GET /rooms/featured
+2025-06-26 23:45:52,027 - app.main - INFO - Request: GET /promotions
+2025-06-26 23:45:52,027 - app.main - INFO - Request: GET /testimonials
+2025-06-26 23:45:52,029 - app.main - INFO - Response: GET /promotions - Status: 404 - Time: 0.0014s
+2025-06-26 23:45:52,030 - app.main - INFO - Response: GET /testimonials - Status: 404 - Time: 0.0024s
+2025-06-26 23:45:52,036 - app.main - INFO - Response: GET /rooms/featured - Status: 401 - Time: 0.0141s
+2025-06-26 23:48:00,162 - app.main - INFO - Request: GET /rooms/featured
+2025-06-26 23:48:00,165 - app.main - INFO - Response: GET /rooms/featured - Status: 404 - Time: 0.0030s
+2025-06-26 23:48:00,168 - app.main - INFO - Request: GET /testimonials
+2025-06-26 23:48:00,171 - app.main - INFO - Request: GET /promotions
+2025-06-26 23:48:00,173 - app.main - INFO - Response: GET /testimonials - Status: 404 - Time: 0.0051s
+2025-06-26 23:48:00,174 - app.main - INFO - Response: GET /promotions - Status: 404 - Time: 0.0030s
+2025-06-26 23:48:01,176 - app.main - INFO - Request: GET /rooms/featured
+2025-06-26 23:48:01,177 - app.main - INFO - Response: GET /rooms/featured - Status: 404 - Time: 0.0010s
+2025-06-26 23:48:01,189 - app.main - INFO - Request: GET /testimonials
+2025-06-26 23:48:01,190 - app.main - INFO - Response: GET /testimonials - Status: 404 - Time: 0.0010s
+2025-06-26 23:48:01,195 - app.main - INFO - Request: GET /promotions
+2025-06-26 23:48:01,195 - app.main - INFO - Response: GET /promotions - Status: 404 - Time: 0.0000s
+2025-06-26 23:48:04,087 - app.main - INFO - Request: GET /rooms/featured
+2025-06-26 23:48:04,090 - app.main - INFO - Request: GET /testimonials
+2025-06-26 23:48:04,091 - app.main - INFO - Request: GET /promotions
+2025-06-26 23:48:04,093 - app.main - INFO - Response: GET /rooms/featured - Status: 404 - Time: 0.0057s
+2025-06-26 23:48:04,094 - app.main - INFO - Response: GET /testimonials - Status: 404 - Time: 0.0040s
+2025-06-26 23:48:04,094 - app.main - INFO - Response: GET /promotions - Status: 404 - Time: 0.0034s
+2025-06-26 23:48:05,122 - app.main - INFO - Request: GET /rooms/featured
+2025-06-26 23:48:05,122 - app.main - INFO - Request: GET /testimonials
+2025-06-26 23:48:05,122 - app.main - INFO - Response: GET /rooms/featured - Status: 404 - Time: 0.0000s
+2025-06-26 23:48:05,126 - app.main - INFO - Response: GET /testimonials - Status: 404 - Time: 0.0040s
+2025-06-26 23:48:05,127 - app.main - INFO - Request: GET /promotions
+2025-06-26 23:48:05,127 - app.main - INFO - Response: GET /promotions - Status: 404 - Time: 0.0000s
+2025-06-26 23:48:07,145 - app.main - INFO - Request: GET /rooms
+2025-06-26 23:48:07,147 - app.main - INFO - Response: GET /rooms - Status: 404 - Time: 0.0017s
+2025-06-26 23:48:08,171 - app.main - INFO - Request: GET /rooms
+2025-06-26 23:48:08,171 - app.main - INFO - Response: GET /rooms - Status: 404 - Time: 0.0000s
+2025-06-26 23:48:15,232 - app.main - INFO - Request: GET /rooms
+2025-06-26 23:48:15,235 - app.main - INFO - Response: GET /rooms - Status: 404 - Time: 0.0021s
+2025-06-26 23:48:16,253 - app.main - INFO - Request: GET /rooms
+2025-06-26 23:48:16,253 - app.main - INFO - Response: GET /rooms - Status: 404 - Time: 0.0000s
+2025-06-26 23:48:57,005 - app.main - INFO - Request: GET /api/rooms
+2025-06-26 23:48:57,006 - app.main - INFO - Response: GET /api/rooms - Status: 307 - Time: 0.0010s
+2025-06-26 23:48:57,053 - app.main - INFO - Request: GET /api/rooms/
+2025-06-26 23:48:57,053 - app.main - INFO - Response: GET /api/rooms/ - Status: 401 - Time: 0.0038s
+2025-06-26 23:49:04,451 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:49:04,452 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:49:04,453 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:49:04,454 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0029s
+2025-06-26 23:49:04,456 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0019s
+2025-06-26 23:49:04,462 - app.main - INFO - Response: GET /api/rooms/featured - Status: 401 - Time: 0.0101s
+2025-06-26 23:49:06,114 - app.main - INFO - Request: GET /api/rooms
+2025-06-26 23:49:06,116 - app.main - INFO - Response: GET /api/rooms - Status: 307 - Time: 0.0017s
+2025-06-26 23:49:06,121 - app.main - INFO - Request: GET /api/rooms/
+2025-06-26 23:49:06,123 - app.main - INFO - Response: GET /api/rooms/ - Status: 401 - Time: 0.0021s
+2025-06-26 23:49:09,013 - app.main - INFO - Request: GET /api/rooms
+2025-06-26 23:49:09,015 - app.main - INFO - Response: GET /api/rooms - Status: 307 - Time: 0.0024s
+2025-06-26 23:49:09,020 - app.main - INFO - Request: GET /api/rooms/
+2025-06-26 23:49:09,021 - app.main - INFO - Response: GET /api/rooms/ - Status: 401 - Time: 0.0011s
+2025-06-26 23:49:10,614 - app.main - INFO - Request: GET /api/testimonials
+2025-06-26 23:49:10,614 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-26 23:49:10,616 - app.main - INFO - Request: GET /api/promotions
+2025-06-26 23:49:10,617 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0041s
+2025-06-26 23:49:10,620 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0036s
+2025-06-26 23:49:10,625 - app.main - INFO - Response: GET /api/rooms/featured - Status: 401 - Time: 0.0112s
+2025-06-27 00:21:55,136 - app.main - INFO - Request: GET /api/rooms
+2025-06-27 00:21:55,137 - app.main - INFO - Response: GET /api/rooms - Status: 307 - Time: 0.0011s
+2025-06-27 00:21:55,137 - app.main - INFO - Request: GET /api/rooms/
+2025-06-27 00:21:55,152 - app.main - INFO - Response: GET /api/rooms/ - Status: 401 - Time: 0.0155s
+2025-06-27 00:22:01,822 - app.main - INFO - Request: GET /
+2025-06-27 00:22:01,824 - app.main - INFO - Response: GET / - Status: 200 - Time: 0.0021s
+2025-06-27 00:22:06,923 - app.main - INFO - Request: GET /health
+2025-06-27 00:22:06,924 - app.main - INFO - Response: GET /health - Status: 404 - Time: 0.0020s
+2025-06-27 00:22:11,570 - app.main - INFO - Request: GET /api/auth/login
+2025-06-27 00:22:11,572 - app.main - INFO - Response: GET /api/auth/login - Status: 405 - Time: 0.0014s
+2025-06-27 00:24:22,925 - app.main - INFO - Request: GET /api/rooms
+2025-06-27 00:24:22,928 - app.main - INFO - Response: GET /api/rooms - Status: 307 - Time: 0.0032s
+2025-06-27 00:24:22,933 - app.main - INFO - Request: GET /api/rooms/
+2025-06-27 00:24:22,936 - app.main - INFO - Response: GET /api/rooms/ - Status: 401 - Time: 0.0031s
+2025-06-27 00:24:26,317 - app.main - INFO - Request: GET /api/rooms
+2025-06-27 00:24:26,324 - app.main - INFO - Response: GET /api/rooms - Status: 307 - Time: 0.0066s
+2025-06-27 00:24:26,328 - app.main - INFO - Request: GET /api/rooms/
+2025-06-27 00:24:26,330 - app.main - INFO - Response: GET /api/rooms/ - Status: 401 - Time: 0.0021s
+2025-06-27 00:24:28,222 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-27 00:24:28,222 - app.main - INFO - Request: GET /api/testimonials
+2025-06-27 00:24:28,231 - app.main - INFO - Request: GET /api/promotions
+2025-06-27 00:24:28,231 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0088s
+2025-06-27 00:24:28,231 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0000s
+2025-06-27 00:24:28,238 - app.main - INFO - Response: GET /api/rooms/featured - Status: 401 - Time: 0.0163s
+2025-06-27 00:24:59,356 - app.main - INFO - Request: OPTIONS /api/auth/login
+2025-06-27 00:24:59,356 - app.main - INFO - Response: OPTIONS /api/auth/login - Status: 200 - Time: 0.0000s
+2025-06-27 00:24:59,364 - app.main - INFO - Request: POST /api/auth/login
+2025-06-27 00:24:59,373 - app.main - INFO - Response: POST /api/auth/login - Status: 422 - Time: 0.0093s
+2025-06-27 00:25:08,903 - app.main - INFO - Request: GET /
+2025-06-27 00:25:08,905 - app.main - INFO - Response: GET / - Status: 200 - Time: 0.0020s
+2025-06-27 00:25:12,329 - app.main - INFO - Request: GET /health
+2025-06-27 00:25:12,329 - app.main - INFO - Response: GET /health - Status: 404 - Time: 0.0000s
+2025-06-27 00:34:17,896 - app.main - INFO - Request: GET /api/auth/login
+2025-06-27 00:34:17,896 - app.main - INFO - Response: GET /api/auth/login - Status: 405 - Time: 0.0000s
+2025-06-27 00:34:24,410 - app.main - INFO - Request: GET /api/rooms
+2025-06-27 00:34:24,410 - app.main - INFO - Response: GET /api/rooms - Status: 307 - Time: 0.0000s
+2025-06-27 00:34:24,416 - app.main - INFO - Request: GET /api/rooms/
+2025-06-27 00:34:24,420 - app.main - INFO - Response: GET /api/rooms/ - Status: 401 - Time: 0.0033s
+2025-06-27 00:34:28,359 - app.main - INFO - Request: GET /health
+2025-06-27 00:34:28,362 - app.main - INFO - Response: GET /health - Status: 404 - Time: 0.0010s
+2025-06-27 00:34:33,709 - app.main - INFO - Request: GET /health
+2025-06-27 00:34:33,710 - app.main - INFO - Response: GET /health - Status: 404 - Time: 0.0010s
+2025-06-27 00:34:44,593 - app.main - INFO - Request: GET /health
+2025-06-27 00:34:44,596 - app.main - INFO - Response: GET /health - Status: 404 - Time: 0.0032s
+2025-06-27 00:35:30,119 - app.main - INFO - Request: GET /api/rooms
+2025-06-27 00:35:30,119 - app.main - INFO - Response: GET /api/rooms - Status: 307 - Time: 0.0007s
+2025-06-27 00:35:30,125 - app.main - INFO - Request: GET /api/rooms/
+2025-06-27 00:35:30,126 - app.main - INFO - Response: GET /api/rooms/ - Status: 401 - Time: 0.0017s
+2025-06-27 00:35:52,498 - app.main - INFO - Request: GET /api/auth/login
+2025-06-27 00:35:52,503 - app.main - INFO - Response: GET /api/auth/login - Status: 405 - Time: 0.0000s
+2025-06-27 00:36:33,336 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-27 00:36:33,344 - app.main - INFO - Request: GET /api/testimonials
+2025-06-27 00:36:33,346 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0021s
+2025-06-27 00:36:33,350 - app.main - INFO - Request: GET /api/promotions
+2025-06-27 00:36:33,352 - app.main - INFO - Response: GET /api/rooms/featured - Status: 401 - Time: 0.0156s
+2025-06-27 00:36:33,356 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0059s
+2025-06-27 00:37:07,149 - app.main - INFO - Request: OPTIONS /api/auth/login
+2025-06-27 00:37:07,149 - app.main - INFO - Response: OPTIONS /api/auth/login - Status: 200 - Time: 0.0000s
+2025-06-27 00:37:07,149 - app.main - INFO - Request: POST /api/auth/login
+2025-06-27 00:37:07,159 - app.main - INFO - Response: POST /api/auth/login - Status: 422 - Time: 0.0104s
+2025-06-27 00:42:34,349 - app.main - INFO - Request: POST /api/auth/login
+2025-06-27 00:42:34,349 - app.main - INFO - Response: POST /api/auth/login - Status: 422 - Time: 0.0000s
+2025-06-27 00:45:39,978 - app.main - INFO - Request: GET /api/rooms/featured
+2025-06-27 00:45:39,991 - app.main - INFO - Request: GET /api/testimonials
+2025-06-27 00:45:39,995 - app.main - INFO - Response: GET /api/testimonials - Status: 404 - Time: 0.0037s
+2025-06-27 00:45:39,999 - app.main - INFO - Request: GET /api/promotions
+2025-06-27 00:45:40,013 - app.main - INFO - Response: GET /api/rooms/featured - Status: 401 - Time: 0.0350s
+2025-06-27 00:45:40,015 - app.main - INFO - Response: GET /api/promotions - Status: 404 - Time: 0.0166s
+2025-06-27 00:45:55,906 - app.main - INFO - Request: POST /api/auth/login
+2025-06-27 00:45:57,053 - app.main - INFO - Response: POST /api/auth/login - Status: 200 - Time: 1.1472s
+2025-06-27 00:46:16,816 - app.main - INFO - Request: OPTIONS /api/auth/login
+2025-06-27 00:46:16,819 - app.main - INFO - Response: OPTIONS /api/auth/login - Status: 200 - Time: 0.0028s
+2025-06-27 00:46:16,826 - app.main - INFO - Request: POST /api/auth/login
+2025-06-27 00:46:17,100 - app.main - INFO - Response: POST /api/auth/login - Status: 200 - Time: 0.2741s
+2025-06-27 00:47:40,266 - app.main - INFO - Request: POST /api/auth/login
+2025-06-27 00:47:40,524 - app.main - INFO - Response: POST /api/auth/login - Status: 200 - Time: 0.2584s
+2025-06-27 00:54:19,023 - app.main - INFO - Request: POST /api/auth/login
+2025-06-27 00:54:19,289 - app.main - INFO - Response: POST /api/auth/login - Status: 200 - Time: 0.2660s
+2025-06-27 00:55:03,658 - app.main - INFO - Request: OPTIONS /api/auth/register
+2025-06-27 00:55:03,658 - app.main - INFO - Response: OPTIONS /api/auth/register - Status: 200 - Time: 0.0000s
+2025-06-27 00:55:03,700 - app.main - INFO - Request: POST /api/auth/register
+2025-06-27 00:55:03,700 - app.main - INFO - Response: POST /api/auth/register - Status: 404 - Time: 0.0002s
+2025-06-27 00:55:41,805 - app.main - INFO - Request: POST /api/auth/register
+2025-06-27 00:55:41,810 - app.main - INFO - Response: POST /api/auth/register - Status: 404 - Time: 0.0043s
+2025-06-27 00:58:46,809 - app.main - INFO - Request: POST /api/auth/register
+2025-06-27 00:58:46,848 - app.main - INFO - Response: POST /api/auth/register - Status: 422 - Time: 0.0390s
+2025-06-27 00:59:08,471 - app.main - INFO - Request: POST /api/auth/register
+2025-06-27 00:59:08,477 - app.main - INFO - Response: POST /api/auth/register - Status: 422 - Time: 0.0060s
+2025-06-27 00:59:16,558 - app.main - INFO - Request: POST /api/auth/register
+2025-06-27 00:59:16,568 - app.main - INFO - Response: POST /api/auth/register - Status: 422 - Time: 0.0097s
+2025-06-27 00:59:37,518 - app.main - INFO - Request: POST /api/auth/register
+2025-06-27 00:59:37,526 - app.main - INFO - Response: POST /api/auth/register - Status: 422 - Time: 0.0082s
